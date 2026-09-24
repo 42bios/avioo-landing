@@ -39,12 +39,49 @@
 <h1>Imprint</h1>
 <p>This website is operated by a private individual. avioo is a project in development; no products or services are currently offered or sold, and no commercial activity is carried out through this website.</p>
 <h2>Responsible for this website</h2>
-<p>Manuel J. Mahr, South Tyrol, Italy<br/>Email: <a href="mailto:hello@avioo.app">hello@avioo.app</a></p>
-<h2>Trademarks</h2>
+<p>
+  Manuel J. Mahr, South Tyrol, Italy<br>
+  Email:
+  <a href="#" class="protected-email">Contact via email</a>
+</p>
+  <h2>Trademarks</h2>
 <p>Microsoft and Microsoft Teams are trademarks of the Microsoft group of companies. avioo is an independent project and is not affiliated with, sponsored or endorsed by Microsoft.</p>
 </main>
 <footer class="foot"><span>© 2026 avioo</span>
-<nav aria-label="Legal"><a href="mailto:hello@avioo.app">hello@avioo.app</a><a href="/privacy/">Privacy</a><a href="/imprint/">Imprint</a></nav>
-</footer></div>
+<nav aria-label="Legal">
+  <a href="#" class="protected-email">Contact</a>
+  <a href="/privacy/">Privacy</a>
+  <a href="/imprint/">Imprint</a>
+</nav></footer></div>
+  <script>
+(() => {
+  const emailParts = [
+    [104, 101, 108, 108, 111],
+    [97, 118, 105, 111, 111],
+    [97, 112, 112]
+  ];
+
+  const decode = (values) =>
+    String.fromCharCode(...values);
+
+  const emailAddress =
+    decode(emailParts[0]) +
+    String.fromCharCode(64) +
+    decode(emailParts[1]) +
+    String.fromCharCode(46) +
+    decode(emailParts[2]);
+
+  document
+    .querySelectorAll('.protected-email')
+    .forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        window.location.href =
+          'mai' + 'lto:' + emailAddress;
+      });
+    });
+})();
+</script>
 </body>
 </html>
