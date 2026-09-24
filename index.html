@@ -4,93 +4,570 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>avioo – Time off in Microsoft Teams</title>
-  <meta name="description" content="Request time off where your team already works. avioo brings vacation and absences right into Microsoft Teams. Coming soon.">
+  <meta
+    name="description"
+    content="Request time off where your team already works. avioo brings vacation and absences right into Microsoft Teams. Coming soon."
+  >
   <link rel="canonical" href="https://avioo.app/">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F5F1">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1624">
+  <meta
+    name="theme-color"
+    media="(prefers-color-scheme: light)"
+    content="#F6F5F1"
+  >
+  <meta
+    name="theme-color"
+    media="(prefers-color-scheme: dark)"
+    content="#0E1624"
+  >
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="avioo">
   <meta property="og:url" content="https://avioo.app/">
   <meta property="og:title" content="avioo – Time off in Microsoft Teams">
-  <meta property="og:description" content="Request time off where your team already works. Coming soon.">
+  <meta
+    property="og:description"
+    content="Request time off where your team already works. Coming soon."
+  >
   <meta property="og:image" content="https://avioo.app/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+
   <meta name="twitter:card" content="summary_large_image">
+
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="preload" href="/assets/fonts/PlusJakartaSans.woff2" as="font" type="font/woff2" crossorigin>
+  <link
+    rel="preload"
+    href="/assets/fonts/PlusJakartaSans.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
 <div class="wrap">
-<header class="top"><a aria-label="avioo home" href="/"><svg class="logo" viewBox="0 -790 2797 1010" role="img" aria-label="avioo"><g transform="scale(1 -1)"><g fill="currentColor">
-<path transform="translate(0 0)" d="M224 -12Q165 -12 122.0 7.0Q79 26 56.0 61.5Q33 97 33 146Q33 192 54.0 227.5Q75 263 118.5 287.0Q162 311 227 321L394 348V238L254 213Q222 207 205.0 192.5Q188 178 188 151Q188 126 207.0 112.0Q226 98 254 98Q291 98 319.0 114.0Q347 130 362.5 157.5Q378 185 378 218V360Q378 391 353.5 412.0Q329 433 287 433Q247 433 216.5 411.0Q186 389 172 353L52 410Q68 456 103.0 489.0Q138 522 187.0 540.0Q236 558 294 558Q363 558 416.0 533.0Q469 508 498.5 463.5Q528 419 528 360V0H388V88L422 94Q398 58 369.0 34.5Q340 11 304.0 -0.5Q268 -12 224 -12Z"></path>
-<path transform="translate(553 0)" d="M226 0 11 546H173L322 133H260L409 546H571L356 0Z"></path>
-<path transform="translate(1105 0)" d="M55 0V546H205V0ZM55 595V745H205V595Z"></path>
-<path transform="translate(1335 0)" d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"></path></g><g fill="var(--sun)">
-<path transform="translate(2051 0)" d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"></path></g>
-<path class="rays" d="M2695.2 405.0L2764.5 433.7M2508.5 591.7L2537.2 661.0M2244.5 591.7L2215.8 661.0M2057.8 405.0L1988.5 433.7M2057.8 141.0L1988.5 112.3M2244.5 -45.7L2215.8 -115.0M2508.5 -45.7L2537.2 -115.0M2695.2 141.0L2764.5 112.3" stroke="var(--sun)" stroke-width="74" stroke-linecap="round" fill="none"></path></g></svg></a><span class="pill"><span class="dot"></span>Coming soon</span>
-</header>
-<main>
-<section class="hero"><div>
-<p class="eyebrow">Time off for Microsoft Teams</p>
-<h1>Request time off where your team already <span class="sunword">works.</span></h1>
-<p class="lead">avioo brings vacation and absences right into Microsoft Teams. Submit a request, track its status and see who’s out today – no extra tool needed.</p>
-<ul class="facts">
-<li><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-<path d="M4.5 10.5l3.5 3.5 7.5-8"></path></g></svg>Right inside Teams</li>
-<li><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-<path d="M4.5 10.5l3.5 3.5 7.5-8"></path></g></svg>Status always visible</li>
-<li><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-<path d="M4.5 10.5l3.5 3.5 7.5-8"></path></g></svg>Team calendar for everyone</li>
-</ul>
-<div class="stage" role="img" aria-label="Preview of the avioo app in Microsoft Teams"><svg class="sunbig" viewBox="-240 -760 1130 1130" aria-hidden="true"><g transform="scale(1 -1)">
-<path d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z" fill="currentColor"></path>
-<path d="M644.2 405.0L713.5 433.7M457.5 591.7L486.2 661.0M193.5 591.7L164.8 661.0M6.8 405.0L-62.5 433.7M6.8 141.0L-62.5 112.3M193.5 -45.7L164.8 -115.0M457.5 -45.7L486.2 -115.0M644.2 141.0L713.5 112.3" stroke="currentColor" stroke-width="74" stroke-linecap="round" fill="none"></path></g></svg><div class="window"><div class="rail" aria-hidden="true"><span><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
-<path d="M10 2.5a4.75 4.75 0 0 0-4.75 4.75v3.1L4 13.5h12l-1.25-3.15V7.25A4.75 4.75 0 0 0 10 2.5z"></path>
-<path d="M8 15.5a2 2 0 0 0 4 0"></path></g></svg></span><span><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
-<path d="M10 3c3.9 0 7 2.7 7 6s-3.1 6-7 6c-.9 0-1.8-.15-2.6-.4L3.5 16.5l1.2-3.2A5.7 5.7 0 0 1 3 9c0-3.3 3.1-6 7-6z"></path></g></svg></span><span><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><rect x="3" y="3" width="14" height="14" rx="2.75"></rect>
-<path d="M3 7h14"></path></g></svg></span><span class="on"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
-<path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path></g></svg></span><span><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><rect x="3" y="3" width="14" height="14" rx="2.75"></rect>
-<path d="M10 6.5v7M6.5 10h7"></path></g></svg></span></div><div class="app"><div class="apphead"><svg class="logo" viewBox="0 -790 2797 1010" role="img" aria-label="avioo"><g transform="scale(1 -1)"><g fill="currentColor">
-<path transform="translate(0 0)" d="M224 -12Q165 -12 122.0 7.0Q79 26 56.0 61.5Q33 97 33 146Q33 192 54.0 227.5Q75 263 118.5 287.0Q162 311 227 321L394 348V238L254 213Q222 207 205.0 192.5Q188 178 188 151Q188 126 207.0 112.0Q226 98 254 98Q291 98 319.0 114.0Q347 130 362.5 157.5Q378 185 378 218V360Q378 391 353.5 412.0Q329 433 287 433Q247 433 216.5 411.0Q186 389 172 353L52 410Q68 456 103.0 489.0Q138 522 187.0 540.0Q236 558 294 558Q363 558 416.0 533.0Q469 508 498.5 463.5Q528 419 528 360V0H388V88L422 94Q398 58 369.0 34.5Q340 11 304.0 -0.5Q268 -12 224 -12Z"></path>
-<path transform="translate(553 0)" d="M226 0 11 546H173L322 133H260L409 546H571L356 0Z"></path>
-<path transform="translate(1105 0)" d="M55 0V546H205V0ZM55 595V745H205V595Z"></path>
-<path transform="translate(1335 0)" d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"></path></g><g fill="var(--sun)">
-<path transform="translate(2051 0)" d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"></path></g>
-<path class="rays" d="M2695.2 405.0L2764.5 433.7M2508.5 591.7L2537.2 661.0M2244.5 591.7L2215.8 661.0M2057.8 405.0L1988.5 433.7M2057.8 141.0L1988.5 112.3M2244.5 -45.7L2215.8 -115.0M2508.5 -45.7L2537.2 -115.0M2695.2 141.0L2764.5 112.3" stroke="var(--sun)" stroke-width="74" stroke-linecap="round" fill="none"></path></g></svg><span class="btn">+ New request</span></div>
-<p class="hello">Good morning, Anna</p>
-<p class="date">Thursday, September 24, 2026</p><div class="grid2">
-<div class="card"><h3>Recent requests</h3>
-<div class="row"><span class="ico"><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"><ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
-<path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path></g></svg></span><span class="grow"><b>Vacation</b><small>Oct 12 – Oct 16, 2026 · 5 days</small></span><span class="wait">Pending</span></div>
-<div class="row"><span class="ico"><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"><ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
-<path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path></g></svg></span><span class="grow"><b>Vacation</b><small>Sep 7 – Sep 11, 2026 · 5 days</small></span><span class="ok">Approved</span></div>
-<div class="row"><span class="ico"><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"><ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
-<path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path></g></svg></span><span class="grow"><b>Vacation</b><small>Sep 15, 2026 · 1 day</small></span><span class="ok">Approved</span></div></div>
-<div class="card"><h3>Out today</h3>
-<div class="row"><span class="av" style="background:#2E6F5E">LM</span><span class="grow"><b>Lena M.</b><small>Vacation until Fri</small></span></div>
-<div class="row"><span class="av" style="background:#5B6B85">JK</span><span class="grow"><b>Jonas K.</b><small>Vacation today</small></span></div></div></div></div></div></div>
-</section>
-<section class="features" aria-label="Features"><div><span class="fi"><svg width="22" height="22" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4">
-<path d="M6 3h6l3.5 3.5V16a1 1 0 0 1-1 1h-8.5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"></path>
-<path d="M12 3v3.5h3.5M7.5 11h5M7.5 14h3"></path></g></svg></span>
-<h2>Request in seconds</h2>
-<p>Request time off right in Teams and always know whether it’s been approved.</p></div><div><span class="fi"><svg width="22" height="22" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"><rect x="3" y="3" width="14" height="14" rx="2.75"></rect>
-<path d="M3 7h14M7 10.5h.01M10 10.5h.01M13 10.5h.01M7 13.5h.01M10 13.5h.01"></path></g></svg></span>
-<h2>Team calendar</h2>
-<p>Who’s away, and when? The team calendar shows it for your whole department.</p></div><div><span class="fi"><svg width="22" height="22" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"><circle cx="7.5" cy="7" r="2.5"></circle>
-<path d="M3 16c0-2.5 2-4.5 4.5-4.5S12 13.5 12 16"></path><circle cx="14" cy="7.5" r="2"></circle>
-<path d="M13 11.6c2.3-.4 4 1.6 4 4.4"></path></g></svg></span>
-<h2>Out today</h2>
-<p>See at a glance who’s out today – only for the people you’re allowed to see.</p></div>
-</section>
-</main>
-<footer class="foot"><span>© 2026 avioo</span>
-<nav aria-label="Legal"><a href="mailto:hello@avioo.app">hello@avioo.app</a><a href="/privacy/">Privacy</a><a href="/imprint/">Imprint</a></nav>
-</footer></div>
+  <header class="top">
+    <a aria-label="avioo home" href="/">
+      <svg
+        class="logo"
+        viewBox="0 -790 2797 1010"
+        role="img"
+        aria-label="avioo"
+      >
+        <g transform="scale(1 -1)">
+          <g fill="currentColor">
+            <path
+              transform="translate(0 0)"
+              d="M224 -12Q165 -12 122.0 7.0Q79 26 56.0 61.5Q33 97 33 146Q33 192 54.0 227.5Q75 263 118.5 287.0Q162 311 227 321L394 348V238L254 213Q222 207 205.0 192.5Q188 178 188 151Q188 126 207.0 112.0Q226 98 254 98Q291 98 319.0 114.0Q347 130 362.5 157.5Q378 185 378 218V360Q378 391 353.5 412.0Q329 433 287 433Q247 433 216.5 411.0Q186 389 172 353L52 410Q68 456 103.0 489.0Q138 522 187.0 540.0Q236 558 294 558Q363 558 416.0 533.0Q469 508 498.5 463.5Q528 419 528 360V0H388V88L422 94Q398 58 369.0 34.5Q340 11 304.0 -0.5Q268 -12 224 -12Z"
+            ></path>
+            <path
+              transform="translate(553 0)"
+              d="M226 0 11 546H173L322 133H260L409 546H571L356 0Z"
+            ></path>
+            <path
+              transform="translate(1105 0)"
+              d="M55 0V546H205V0ZM55 595V745H205V595Z"
+            ></path>
+            <path
+              transform="translate(1335 0)"
+              d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"
+            ></path>
+          </g>
+          <g fill="var(--sun)">
+            <path
+              transform="translate(2051 0)"
+              d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"
+            ></path>
+          </g>
+          <path
+            class="rays"
+            d="M2695.2 405.0L2764.5 433.7M2508.5 591.7L2537.2 661.0M2244.5 591.7L2215.8 661.0M2057.8 405.0L1988.5 433.7M2057.8 141.0L1988.5 112.3M2244.5 -45.7L2215.8 -115.0M2508.5 -45.7L2537.2 -115.0M2695.2 141.0L2764.5 112.3"
+            stroke="var(--sun)"
+            stroke-width="74"
+            stroke-linecap="round"
+            fill="none"
+          ></path>
+        </g>
+      </svg>
+    </a>
+    <span class="pill">
+      <span class="dot"></span>
+      Coming soon
+    </span>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">
+          Time off for Microsoft Teams
+        </p>
+        <h1>
+          Request time off where your team already
+          <span class="sunword">works.</span>
+        </h1>
+        <p class="lead">
+          avioo brings vacation and absences right into Microsoft Teams.
+          Submit a request, track its status and see who’s out today –
+          no extra tool needed.
+        </p>
+        <ul class="facts">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true">
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              >
+                <path d="M4.5 10.5l3.5 3.5 7.5-8"></path>
+              </g>
+            </svg>
+            Right inside Teams
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true">
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              >
+                <path d="M4.5 10.5l3.5 3.5 7.5-8"></path>
+              </g>
+            </svg>
+            Status always visible
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true">
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              >
+                <path d="M4.5 10.5l3.5 3.5 7.5-8"></path>
+              </g>
+            </svg>
+            Team calendar for everyone
+          </li>
+        </ul>
+        <p class="contact">
+          Want early access?
+          <a
+            href="#"
+            class="protected-email"
+            aria-label="Contact avioo by email"
+          >
+            Contact us
+          </a>
+        </p>
+
+      </div>
+      <div
+        class="stage"
+        role="img"
+        aria-label="Preview of the avioo app in Microsoft Teams"
+      >
+        <svg
+          class="sunbig"
+          viewBox="-240 -760 1130 1130"
+          aria-hidden="true"
+        >
+          <g transform="scale(1 -1)">
+            <path
+              d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"
+              fill="currentColor"
+            ></path>
+            <path
+              d="M644.2 405.0L713.5 433.7M457.5 591.7L486.2 661.0M193.5 591.7L164.8 661.0M6.8 405.0L-62.5 433.7M6.8 141.0L-62.5 112.3M193.5 -45.7L164.8 -115.0M457.5 -45.7L486.2 -115.0M644.2 141.0L713.5 112.3"
+              stroke="currentColor"
+              stroke-width="74"
+              stroke-linecap="round"
+              fill="none"
+            ></path>
+          </g>
+        </svg>
+        <div class="window">
+          <div class="rail" aria-hidden="true">
+            <span>
+              <svg width="20" height="20" viewBox="0 0 20 20">
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                >
+                  <path d="M10 2.5a4.75 4.75 0 0 0-4.75 4.75v3.1L4 13.5h12l-1.25-3.15V7.25A4.75 4.75 0 0 0 10 2.5z"></path>
+                  <path d="M8 15.5a2 2 0 0 0 4 0"></path>
+                </g>
+              </svg>
+            </span>
+            <span>
+              <svg width="20" height="20" viewBox="0 0 20 20">
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                >
+                  <path d="M10 3c3.9 0 7 2.7 7 6s-3.1 6-7 6c-.9 0-1.8-.15-2.6-.4L3.5 16.5l1.2-3.2A5.7 5.7 0 0 1 3 9c0-3.3 3.1-6 7-6z"></path>
+                </g>
+              </svg>
+            </span>
+            <span>
+              <svg width="20" height="20" viewBox="0 0 20 20">
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                >
+                  <rect x="3" y="3" width="14" height="14" rx="2.75"></rect>
+                  <path d="M3 7h14"></path>
+                </g>
+              </svg>
+            </span>
+            <span class="on">
+              <svg width="20" height="20" viewBox="0 0 20 20">
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                >
+                  <ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
+                  <path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path>
+                </g>
+              </svg>
+            </span>
+            <span>
+              <svg width="20" height="20" viewBox="0 0 20 20">
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                >
+                  <rect x="3" y="3" width="14" height="14" rx="2.75"></rect>
+                  <path d="M10 6.5v7M6.5 10h7"></path>
+                </g>
+              </svg>
+            </span>
+          </div>
+          <div class="app">
+            <div class="apphead">
+              <svg
+                class="logo"
+                viewBox="0 -790 2797 1010"
+                role="img"
+                aria-label="avioo"
+              >
+                <g transform="scale(1 -1)">
+                  <g fill="currentColor">
+                    <path
+                      transform="translate(0 0)"
+                      d="M224 -12Q165 -12 122.0 7.0Q79 26 56.0 61.5Q33 97 33 146Q33 192 54.0 227.5Q75 263 118.5 287.0Q162 311 227 321L394 348V238L254 213Q222 207 205.0 192.5Q188 178 188 151Q188 126 207.0 112.0Q226 98 254 98Q291 98 319.0 114.0Q347 130 362.5 157.5Q378 185 378 218V360Q378 391 353.5 412.0Q329 433 287 433Q247 433 216.5 411.0Q186 389 172 353L52 410Q68 456 103.0 489.0Q138 522 187.0 540.0Q236 558 294 558Q363 558 416.0 533.0Q469 508 498.5 463.5Q528 419 528 360V0H388V88L422 94Q398 58 369.0 34.5Q340 11 304.0 -0.5Q268 -12 224 -12Z"
+                    ></path>
+                    <path
+                      transform="translate(553 0)"
+                      d="M226 0 11 546H173L322 133H260L409 546H571L356 0Z"
+                    ></path>
+                    <path
+                      transform="translate(1105 0)"
+                      d="M55 0V546H205V0ZM55 595V745H205V595Z"
+                    ></path>
+                    <path
+                      transform="translate(1335 0)"
+                      d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"
+                    ></path>
+                  </g>
+                  <g fill="var(--sun)">
+                    <path
+                      transform="translate(2051 0)"
+                      d="M326 -12Q245 -12 178.5 25.0Q112 62 72.5 126.5Q33 191 33 273Q33 356 72.5 420.0Q112 484 178.5 521.0Q245 558 326 558Q407 558 473.0 521.0Q539 484 578.5 420.0Q618 356 618 273Q618 191 578.5 126.5Q539 62 473.0 25.0Q407 -12 326 -12ZM326 123Q367 123 397.5 142.0Q428 161 445.5 195.0Q463 229 463 273Q463 317 445.5 350.5Q428 384 397.5 403.5Q367 423 326 423Q285 423 254.0 403.5Q223 384 205.5 350.5Q188 317 188 273Q188 229 205.5 195.0Q223 161 254.0 142.0Q285 123 326 123Z"
+                    ></path>
+                  </g>
+                  <path
+                    class="rays"
+                    d="M2695.2 405.0L2764.5 433.7M2508.5 591.7L2537.2 661.0M2244.5 591.7L2215.8 661.0M2057.8 405.0L1988.5 433.7M2057.8 141.0L1988.5 112.3M2244.5 -45.7L2215.8 -115.0M2508.5 -45.7L2537.2 -115.0M2695.2 141.0L2764.5 112.3"
+                    stroke="var(--sun)"
+                    stroke-width="74"
+                    stroke-linecap="round"
+                    fill="none"
+                  ></path>
+                </g>
+              </svg>
+              <span class="btn">
+                + New request
+              </span>
+            </div>
+            <p class="hello">
+              Good morning, Anna
+            </p>
+            <p class="date">
+              Thursday, September 24, 2026
+            </p>
+            <div class="grid2">
+              <div class="card">
+                <h3>Recent requests</h3>
+                <div class="row">
+                  <span class="ico">
+                    <svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true">
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.4"
+                      >
+                        <ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
+                        <path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path>
+                      </g>
+                    </svg>
+                  </span>
+                  <span class="grow">
+                    <b>Vacation</b>
+                    <small>
+                      Oct 12 – Oct 16, 2026 · 5 days
+                    </small>
+                  </span>
+                  <span class="wait">
+                    Pending
+                  </span>
+                </div>
+                <div class="row">
+                  <span class="ico">
+                    <svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true">
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.4"
+                      >
+                        <ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
+                        <path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path>
+                      </g>
+                    </svg>
+                  </span>
+                  <span class="grow">
+                    <b>Vacation</b>
+                    <small>
+                      Sep 7 – Sep 11, 2026 · 5 days
+                    </small>
+                  </span>
+                  <span class="ok">
+                    Approved
+                  </span>
+                </div>
+                <div class="row">
+                  <span class="ico">
+                    <svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true">
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.4"
+                      >
+                        <ellipse cx="10" cy="10" rx="3.8" ry="3.7"></ellipse>
+                        <path d="M15.5 12.3L17.3 13.0M12.3 15.5L13.0 17.3M7.7 15.5L7.0 17.3M4.5 12.3L2.7 13.0M4.5 7.7L2.7 7.0M7.7 4.5L7.0 2.7M12.3 4.5L13.0 2.7M15.5 7.7L17.3 7.0"></path>
+                      </g>
+                    </svg>
+                  </span>
+                  <span class="grow">
+                    <b>Vacation</b>
+                    <small>
+                      Sep 15, 2026 · 1 day
+                    </small>
+                  </span>
+                  <span class="ok">
+                    Approved
+                  </span>
+                </div>
+              </div>
+              <div class="card">
+                <h3>Out today</h3>
+                <div class="row">
+                  <span
+                    class="av"
+                    style="background:#2E6F5E"
+                  >
+                    LM
+                  </span>
+                  <span class="grow">
+                    <b>Lena M.</b>
+                    <small>
+                      Vacation until Fri
+                    </small>
+                  </span>
+                </div>
+                <div class="row">
+                  <span
+                    class="av"
+                    style="background:#5B6B85"
+                  >
+                    JK
+                  </span>
+                  <span class="grow">
+                    <b>Jonas K.</b>
+                    <small>
+                      Vacation today
+                    </small>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="features"
+      aria-label="Features"
+    >
+      <div>
+        <span class="fi">
+          <svg width="22" height="22" viewBox="0 0 20 20" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.4"
+            >
+              <path d="M6 3h6l3.5 3.5V16a1 1 0 0 1-1 1h-8.5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"></path>
+              <path d="M12 3v3.5h3.5M7.5 11h5M7.5 14h3"></path>
+            </g>
+          </svg>
+        </span>
+        <h2>
+          Request in seconds
+        </h2>
+        <p>
+          Request time off right in Teams and always know whether it’s been approved.
+        </p>
+      </div>
+      <div>
+        <span class="fi">
+          <svg width="22" height="22" viewBox="0 0 20 20" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.4"
+            >
+              <rect
+                x="3"
+                y="3"
+                width="14"
+                height="14"
+                rx="2.75"
+              ></rect>
+              <path d="M3 7h14M7 10.5h.01M10 10.5h.01M13 10.5h.01M7 13.5h.01M10 13.5h.01"></path>
+            </g>
+          </svg>
+        </span>
+        <h2>
+          Team calendar
+        </h2>
+        <p>
+          Who’s away, and when? The team calendar shows it for your whole department.
+        </p>
+      </div>
+      <div>
+        <span class="fi">
+          <svg width="22" height="22" viewBox="0 0 20 20" aria-hidden="true">
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.4"
+            >
+              <circle cx="7.5" cy="7" r="2.5"></circle>
+              <path d="M3 16c0-2.5 2-4.5 4.5-4.5S12 13.5 12 16"></path>
+              <circle cx="14" cy="7.5" r="2"></circle>
+              <path d="M13 11.6c2.3-.4 4 1.6 4 4.4"></path>
+            </g>
+          </svg>
+        </span>
+        <h2>
+          Out today
+        </h2>
+        <p>
+          See at a glance who’s out today – only for the people you’re allowed to see.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="foot">
+    <span>
+      © 2026 avioo
+    </span>
+    <nav aria-label="Legal">
+      <a
+        href="#"
+        class="protected-email"
+        aria-label="Contact avioo by email"
+      >
+        Contact
+      </a>
+      <a href="/privacy/">
+        Privacy
+      </a>
+      <a href="/imprint/">
+        Imprint
+      </a>
+    </nav>
+  </footer>
+</div>
+<script>
+(() => {
+  /*
+   * Build the email address at runtime.
+   *
+   * This prevents simple email-harvesting bots from finding a complete
+   * email address or mailto: link in the static HTML source.
+   *
+   * Important:
+   * This is obfuscation, not absolute protection. A crawler executing
+   * JavaScript can still determine the resulting address.
+   */
+  const emailParts = [
+    [104, 101, 108, 108, 111],
+    [97, 118, 105, 111, 111],
+    [97, 112, 112]
+  ];
+  const decode = (values) =>
+    String.fromCharCode(...values);
+  const emailAddress =
+    decode(emailParts[0]) +
+    String.fromCharCode(64) +
+    decode(emailParts[1]) +
+    String.fromCharCode(46) +
+    decode(emailParts[2]);
+  document
+    .querySelectorAll('.protected-email')
+    .forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.location.href =
+          'mai' + 'lto:' + emailAddress;
+      });
+    });
+})();
+</script>
 </body>
 </html>
